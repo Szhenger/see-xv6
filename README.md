@@ -24,8 +24,15 @@ Standard xv6 does not save Floating Point Unit (FPU) states during context switc
 * **`xv6-main`**: The original, unmodified MIT xv6 source. Used as a clean reference for stability.
 * **`ml-dev`**: The active development branch for ML-specific features, drivers, and syscalls.
 
-## 🚧 Current Roadmap
-- [ ] **Phase 1: FPU Integration** - Enable x87 FPU / SSE support in the kernel (Crucial for decimal math).
-- [ ] **Phase 2: ML System Calls** - Implement the `sys_matmul` system call for kernel-level matrix operations.
-- [ ] **Phase 3: Tensor Memory Management** - Create a contiguous memory allocator for large tensor buffers.
-- [ ] **Phase 4: Hardware Interface** - Basic PCIe driver support to communicate with external hardware.
+---
+
+---
+
+## 📜 Credits & Licensing
+
+**SeeXv6** is a derivative work of **xv6-riscv** (or xv6-x86), developed by the **MIT Parallel and Distributed Operating Systems group (PDOS)**. 
+
+I am deeply grateful to the original authors for providing a clean, pedagogical foundation for operating systems research. The original source code is available at the [MIT xv6 GitHub](https://github.com/mit-pdos/xv6-riscv).
+
+* **Original xv6 Authors:** Russ Cox, Cliff Frey, Xiao Yu, Nickolai Zeldovich, and Robert Morris.
+* **SeeXv6 Derivative:** Developed by Shuo Zheng for ML-optimized kernel research.
