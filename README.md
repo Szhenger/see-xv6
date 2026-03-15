@@ -26,8 +26,6 @@ Standard xv6 does not save Floating Point Unit (FPU) states during context switc
 
 ---
 
----
-
 ## 📜 Credits & Licensing
 
 **SeeXv6** is a derivative work of **xv6-riscv** (or xv6-x86), developed by the **MIT Parallel and Distributed Operating Systems group (PDOS)**. 
