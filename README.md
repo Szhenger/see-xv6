@@ -32,5 +32,5 @@ Standard xv6 does not save Floating Point Unit (FPU) states during context switc
 
 I am deeply grateful to the original authors for providing a clean, pedagogical foundation for operating systems research. The original source code is available at the [MIT xv6 GitHub](https://github.com/mit-pdos/xv6-riscv).
 
-* **Original xv6 Authors:** Russ Cox, Cliff Frey, Xiao Yu, Nickolai Zeldovich, and Robert Morris.
+* **Original xv6 Authors:** Russ Cox, Cliff Frey, Xiao Yu, Frans Kaashoek, Nickolai Zeldovich, and Robert Morris.
 * **SeeXv6 Derivative:** Developed by Shuo Zheng for ML-optimized kernel research.
