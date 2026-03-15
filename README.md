@@ -16,7 +16,7 @@ Instead of relying solely on user-space libraries (like NumPy), we are implement
 Standard 4KB memory pages cause massive Translation Lookaside Buffer (TLB) misses during large DNN training. We are implementing **Huge Pages (2MB)** and a **Zero-Copy memory architecture** to allow seamless data transfer between the CPU and ML accelerators without redundant data movement.
 
 ### 3. FPU-Aware Scheduling
-Standard xv6 does not save Floating Point Unit (FPU) states during context switches to keep the scheduler simple. **ML-xv6** enables **eager FPU/SSE state saving**, ensuring that high-precision weights and biases are preserved across process threads during training.
+Standard xv6 does not save Floating Point Unit (FPU) states during context switches to keep the scheduler simple. **SeeXv6** enables **eager FPU/SSE state saving**, ensuring that high-precision weights and biases are preserved across process threads during training.
 
 ---
 
