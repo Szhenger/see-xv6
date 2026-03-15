@@ -20,12 +20,6 @@ Standard xv6 does not save Floating Point Unit (FPU) states during context switc
 
 ---
 
-## 📂 Branch Structure
-* **`xv6-main`**: The original, unmodified MIT xv6 source. Used as a clean reference for stability.
-* **`ml-dev`**: The active development branch for ML-specific features, drivers, and syscalls.
-
----
-
 ## 📜 Credits & Licensing
 
 **SeeXv6** is a derivative work of **xv6-riscv** (or xv6-x86), developed by the **MIT Parallel and Distributed Operating Systems Group (PDOS)**. 
